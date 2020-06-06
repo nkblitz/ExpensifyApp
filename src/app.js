@@ -5,7 +5,6 @@ import { Provider } from 'react-redux';
 import AppRouter from './routers/AppRouter';
 import configureStore from '../src/store/configureStore';
 import { addExpense } from '../src/actions/expenses';
-import { setTextFilter } from '../src/actions/filters';
 import getVisibleExpenses from '../src/selectors/expenses';
 import './styles/styles.scss';
 import 'normalize-css/normalize.css'
